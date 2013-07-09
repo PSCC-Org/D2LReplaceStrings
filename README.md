@@ -156,4 +156,12 @@ this.getField(fieldName).value = unescape(kvPair[1])
 }
 }
 ````
+4. Upload the PDF to your course. Take note of the full URL of the form. For example, https://elearn.pstcc.edu/content/enforced/3839437-BCBALLENTINE-TUTORIALS/Certificate.pdf
+5. Create a new Quicklink and paste the URL for the uploaded PDF
+6. Add replace strings as URL parameters to pre-fill the student's name and course name. Your final URL should look something like this:
 
+````html
+https://elearn.pstcc.edu/content/enforced/3839437-BCBALLENTINE-TUTORIALS/Certificate.pdf?Name={FirstName}%20{LastName}&Course={OrgUnitName}
+````
+
+Once you save your link, students who click the link can access the PDF!
