@@ -1,7 +1,7 @@
 D2L Replace Strings
 =================
 
-**Replace Strings** are variables you add to the HTMl editor in the Learning Environment. When a page is accessed, these variables are populated with specific information about the course or user accessing the page. Replace strings make it possible to both create customized content and save time when developing course materials. This page contains information presented by Audrey Williams and Brandon Ballentine at D2L's Fusion 2013 conference.
+**Replace Strings** are variables you add to the HTMl editor in the Learning Environment. When a page is accessed, these variables are populated with specific information about the course or user accessing the page. Replace strings make it possible to both create customized content and save time when developing course materials. This page contains information about replace strings presented by Audrey Williams and Brandon Ballentine at D2L's Fusion 2013 conference.
 
 ##Available Strings
 
@@ -24,6 +24,20 @@ For the Current	User
 * {Email}
 * {ExternalEmail}
 * {InternalEmail}
+ 
+##Where can you use **replace strings**?
+
+* Dropbox feedback and instructions
+* News Items
+* Custom widgets
+* Email
+* Grades - comments
+* Intelligent Agents
+* Quizzes - header/footer
+* Quicklinks
+* **Discussions??**
+
+> DO NOT USE replace strings in the Content tool. Recent versions of the Learning Environment have changed the way these strings work!
 
 ##Examples
 
