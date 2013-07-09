@@ -49,8 +49,20 @@ Please take a few minutes to look through Module 1 in the <strong>Course Content
 
 <p>This Course's ID is: {OrgUnitCode}</p>
 
-````
-
 ###Google Form
+
+1. Start off by creating a new Google Form
+2. Add several form fields
+3. Access the **Responses** menu and select the **Get pre-filled URL** option
+4. Type in some sample information in the fields and click the **Submit** button
+5. Copy the URL and paste it into a D2L News item, Quicklink, etc. 
+6. Delete the palceholder information and add Replacement Strings
+7. Test the link. Each user should have the form pre-filled with their own name and email address.
+
+Here's an example of what your Quicklink should look like:
+
+````html
+https://docs.google.com/forms/d/1VzR_yxemDtTH9qQaHOCwtVMylsFv-p6-TAvyGmOgkLY/viewform?entry.1860738625={FirstName}&entry.2039771014={LastName}
+````
 
 ###Course Certificate
