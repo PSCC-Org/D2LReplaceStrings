@@ -107,7 +107,53 @@ https://docs.google.com/forms/d/1VzR_yxemDtTH9qQaHOCwtVMylsFv-p6-TAvyGmOgkLY/vie
 
 In the example above, we used URL parameters to pre-fill items into our form. Passing information between pages in this way is very common in web services. In the example below, we'll use a similar technique to create a course completion certificate. 
 
+We're going to be passing student information into a PDF form, so you'll need Adobe Acrobat Pro to complete the following steps.
 
+1. In MS Word, Pages, or the desktop publishing app of your choice, create a certificate and Export/Save as a PDF.
+2. Open the form in Acrobat Pro. Add fields for the student's name and course name - I'm calling my fields "Name" and "Course."
+3. Add the following Javascript to the PDF document. For a description of the code, visit [Adobe's Website](http://blogs.adobe.com/pdfdevjunkie/2009/12/populating_pdf_form_fields_fro.html)
 
+````javascript
+//only run the script if the PDF file is being viewed in a browser window
+if (this.external)
+{
+//The whiteList defines which fields are permitted to be changed by the URL.
 
+whiteList = ["Name", "Course"]
+
+//get the parameters portion of the URL and unescape it so we get the spaces and punctuation back
+
+parametersString = this.URL.substring(this.URL.indexOf("?")+1)
+
+//only run the script if there are parameters
+if (parametersString.length > 0)
+{
+
+//create an array of key/value pairs
+parameters = parametersString.split("&")
+
+//loop through the array...
+for each (parameter in parameters)
+{
+
+//create a 2 element array for each parameter as [key, value]
+kvPair = parameter.split("=")
+
+//set the field named "key" to "value"
+fieldName = unescape(kvPair[0])
+if (whiteList.length > 0)
+{
+if (whiteList.indexOf(fieldName) > -1)
+{
+this.getField(fieldName).value = unescape(kvPair[1])
+}
+}
+else
+{
+this.getField(fieldName).value = unescape(kvPair[1])
+}
+}
+}
+}
+````
 
