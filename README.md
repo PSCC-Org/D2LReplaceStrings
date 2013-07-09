@@ -109,9 +109,9 @@ In the example above, we used URL parameters to pre-fill items into our form. Pa
 
 We're going to be passing student information into a PDF form, so you'll need Adobe Acrobat Pro to complete the following steps.
 
-1. In MS Word, Pages, or the desktop publishing app of your choice, create a certificate and Export/Save as a PDF.
-2. Open the form in Acrobat Pro. Add fields for the student's name and course name - I'm calling my fields "Name" and "Course."
-3. Add the following Javascript to the PDF document. For a description of the code, visit [Adobe's Website](http://blogs.adobe.com/pdfdevjunkie/2009/12/populating_pdf_form_fields_fro.html)
+* In MS Word, Pages, or the desktop publishing app of your choice, create a certificate and Export/Save as a PDF.
+* Open the form in Acrobat Pro. Add fields for the student's name and course name - I'm calling my fields "Name" and "Course."
+* Add the following Javascript to the PDF document. For a description of the code, visit [Adobe's Website](http://blogs.adobe.com/pdfdevjunkie/2009/12/populating_pdf_form_fields_fro.html)
 
 ````javascript
 //only run the script if the PDF file is being viewed in a browser window
@@ -156,9 +156,9 @@ this.getField(fieldName).value = unescape(kvPair[1])
 }
 }
 ````
-4. Upload the PDF to your course. Take note of the full URL of the form. For example, https://elearn.pstcc.edu/content/enforced/3839437-BCBALLENTINE-TUTORIALS/Certificate.pdf
-5. Create a new Quicklink and paste the URL for the uploaded PDF
-6. Add replace strings as URL parameters to pre-fill the student's name and course name. Your final URL should look something like this:
+* Upload the PDF to your course. Take note of the full URL of the form. For example, https://elearn.pstcc.edu/content/enforced/3839437-BCBALLENTINE-TUTORIALS/Certificate.pdf
+* Create a new Quicklink and paste the URL for the uploaded PDF
+* Add replace strings as URL parameters to pre-fill the student's name and course name. Your final URL should look something like this:
 
 ````html
 https://elearn.pstcc.edu/content/enforced/3839437-BCBALLENTINE-TUTORIALS/Certificate.pdf?Name={FirstName}%20{LastName}&Course={OrgUnitName}
