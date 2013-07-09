@@ -104,3 +104,10 @@ https://docs.google.com/forms/d/1VzR_yxemDtTH9qQaHOCwtVMylsFv-p6-TAvyGmOgkLY/vie
 ````
 
 ###Course Certificate
+
+In the example above, we used URL parameters to pre-fill items into our form. Passing information between pages in this way is very common in web services. In the example below, we'll use a similar technique to create a course completion certificate. 
+
+
+
+
+
