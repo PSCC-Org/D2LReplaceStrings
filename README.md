@@ -13,26 +13,7 @@ Resources for Audrey and Brandon's Fusion 2013 Presentation
   
 ##Quiz Footer
 
-````<!-- Create a new custom widget and place the following code in the Content area -->
-
-<h2>Need help? Having trouble?</h2>
-
-<ul>
-  <li><a href="/Shared/documentation/help.html?role={rolename}" target="_blank">Online Help</a></li>
-	<li><a href="#">Quick Reference Guides</a></li>
-	<li>Call the HelpDesk (865.694.6537) or <a href="#">email them</a></li>
-</ul>
-
-
-<h2>BEFORE YOU CALL THE HELPDESK, HERE IS SOME INFORMATION YOU MIGHT NEED:</h2>
-
-<p>Your username is <strong>{UserName}</strong></p>
-
-<p>Your Banner Number (also called P Number) is: <strong>{OrgDefinedId}</strong></p>
-
-<p>Your campus email address is: <strong>{ExternalEmail}</strong></p>
-
-<p>This Course's ID is: {OrgUnitCode}</p>````
+<script src="https://gist.github.com/bballentine/5957201.js"></script>
 
 ##Google Docs Example
 
