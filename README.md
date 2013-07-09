@@ -1,7 +1,29 @@
-D2LReplaceStrings
+D2L Replace Strings
 =================
 
-Resources for Audrey and Brandon's Fusion 2013 Presentation
+**Replace Strings** are variables you add to the HTMl editor in the Learning Environment. When a page is accessed, these variables are populated with specific information about the course or user accessing the page. Replace strings make it possible to both create customized content and save time when developing course materials. This page contains information presented by Audrey Williams and Brandon Ballentine at D2L's Fusion 2013 conference.
+
+##Available Strings
+
+Here's a list of the most useful strings. Check D2L's documentation for a full list of available strings. 
+ 	  
+For the Current	Org Unit
+
+* {OrgUnitId}
+* {OrgUnitName}
+* {OrgUnitCode}
+* {OrgUnitPath}
+ 	  
+For the Current	User
+
+* {UserId}
+* {UserName}
+* {OrgDefinedId}
+* {FirstName}
+* {LastName}
+* {Email}
+* {ExternalEmail}
+* {InternalEmail}
 
 ##Examples
 
@@ -49,7 +71,7 @@ Please take a few minutes to look through Module 1 in the <strong>Course Content
 
 <p>This Course's ID is: {OrgUnitCode}</p>
 
-`````
+````
 
 ###Google Form
 
