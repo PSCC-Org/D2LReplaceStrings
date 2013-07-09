@@ -164,4 +164,14 @@ this.getField(fieldName).value = unescape(kvPair[1])
 https://elearn.pstcc.edu/content/enforced/3839437-BCBALLENTINE-TUTORIALS/Certificate.pdf?Name={FirstName}%20{LastName}&Course={OrgUnitName}
 ````
 
-Once you save your link, students who click the link can access the PDF!
+Once you save your link, students who click the link can access the PDF.
+
+##Stay in touch
+
+We'd love to hear your questions or comments. Find us online!
+
+Audrey Williams (@ajwms)
+www.audreyjwilliams.com
+
+Brandon Ballentine (@bballentine)
+www.brandonballentine.com
