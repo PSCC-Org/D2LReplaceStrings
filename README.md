@@ -3,6 +3,7 @@ D2L Replace Strings
 
 **Replace Strings** are variables you add to the HTMl editor in the Learning Environment. When a page is accessed, these variables are populated with specific information about the course or user accessing the page. Replace strings make it possible to both create customized content and save time when developing course materials. This page contains information about replace strings presented by Audrey Williams and Brandon Ballentine at D2L's Fusion 2013 conference.
 
+You can [access the presentation here](http://pscc-ballentine.github.io/D2LReplaceStrings).
 ##Available Strings
 
 Here's a list of the most useful strings. Check D2L's documentation for a full list of available strings. 
