@@ -36,7 +36,6 @@ For the Current	User
 * Intelligent Agents
 * Quizzes - header/footer
 * Quicklinks
-* **Discussions??**
 
 > DO NOT USE replace strings in the Content tool. Recent versions of the Learning Environment have changed the way strings work (they don't) in this tool!
 
