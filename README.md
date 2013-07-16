@@ -37,7 +37,7 @@ For the Current	User
 * Quizzes - header/footer
 * Quicklinks
 
-> DO NOT USE replace strings in the Content tool. Recent versions of the Learning Environment have changed the way strings work (they don't) in this tool!
+> DO NOT USE replace strings in Content files. The LE renders Replace Strings in content files when you save the file, so the content is not dynamic!
 
 ##Examples
 
