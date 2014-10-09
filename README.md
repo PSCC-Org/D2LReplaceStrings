@@ -167,6 +167,7 @@ https://elearn.pstcc.edu/content/enforced/3839437-BCBALLENTINE-TUTORIALS/Certifi
 Once you save your link, students who click the link can access the PDF.
 
 ###IMPORTANT NOTE
+
 **The steps above will only work if the visitor's browser is using the Adobe Acrobat plugin. If using a browser's built-in PDF viewer, such as in Chrome or FireFox, the Javascript will be ignored. Deactivating the built-in PDF functionality will force the Acrobat plugin to render the file. **
 
 ##Stay in touch
